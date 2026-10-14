@@ -1,5 +1,9 @@
 # NYC Taxi Demand Forecasting
 
+[![Open the live dashboard](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nyc-taxi-demand-cxh7drjmmmg3bs8emlw4s4.streamlit.app/)
+
+**[View the live dashboard →](https://nyc-taxi-demand-cxh7drjmmmg3bs8emlw4s4.streamlit.app/)**
+
 **Where and when will people need a cab next week, and which parts of the city behave alike?**
 
 A year of New York City yellow cab trips is close to 49 million rides, too big to work with comfortably in pandas. This project cleans them with PySpark, loads them into a star-schema warehouse to answer business questions in SQL, groups the city's zones by the rhythm of their weekly demand, and forecasts hourly pickups a week ahead for the busiest zones.
@@ -28,7 +32,7 @@ For staffing a normal week, a four-week rolling average per zone and hour is acc
 
 ## What's in the dashboard
 
-`streamlit run app.py` opens five tabs:
+The [live dashboard](https://nyc-taxi-demand-cxh7drjmmmg3bs8emlw4s4.streamlit.app/) (or `streamlit run app.py` locally) has five tabs:
 
 | Tab | Who it's for | What it does |
 |---|---|---|
