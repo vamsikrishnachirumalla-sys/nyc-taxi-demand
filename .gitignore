@@ -1,0 +1,14 @@
+# raw trips are ~700MB and everything in data/ gets rebuilt by the scripts.
+# app_data/, reports/ and sql/ DO get committed
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+spark-warehouse/
+metastore_db/
+derby.log

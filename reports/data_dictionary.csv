@@ -1,0 +1,21 @@
+column_name,column_type,definition
+VendorID,INTEGER,"Which tech provider recorded the trip (1 = Creative Mobile, 2 = Curb/VeriFone)"
+tpep_pickup_datetime,TIMESTAMP,"Meter start, local NYC time"
+tpep_dropoff_datetime,TIMESTAMP,"Meter stop, local NYC time"
+passenger_count,BIGINT,"Entered by the driver, often missing"
+trip_distance,DOUBLE,Miles on the meter
+RatecodeID,BIGINT,"1 standard, 2 JFK flat fare, 3 Newark, 4 Nassau/Westchester, 5 negotiated, 6 group"
+store_and_fwd_flag,VARCHAR,Y if the trip was stored on the car and sent later (no signal)
+PULocationID,INTEGER,"Pickup taxi zone (1-265), see the zone lookup"
+DOLocationID,INTEGER,Dropoff taxi zone (1-265)
+payment_type,BIGINT,"1 card, 2 cash, 3 no charge, 4 dispute, 5 unknown, 6 voided"
+fare_amount,DOUBLE,Time and distance fare
+extra,DOUBLE,Rush hour and overnight surcharges
+mta_tax,DOUBLE,MTA tax
+tip_amount,DOUBLE,"Tips, only recorded for card payments"
+tolls_amount,DOUBLE,Tolls paid
+improvement_surcharge,DOUBLE,Improvement surcharge
+total_amount,DOUBLE,"Total charged, not including cash tips"
+congestion_surcharge,DOUBLE,NY state congestion surcharge
+Airport_fee,DOUBLE,Fee for pickups at LaGuardia and JFK
+cbd_congestion_fee,DOUBLE,"Manhattan congestion pricing fee, started January 2025"

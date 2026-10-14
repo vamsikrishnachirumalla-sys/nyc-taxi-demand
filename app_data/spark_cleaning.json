@@ -1,0 +1,7 @@
+{
+  "raw_trips": 48722602,
+  "clean_trips": 44082692,
+  "dropped": 4639910,
+  "dropped_share": 0.0952,
+  "zone_hour_rows": 1358864
+}

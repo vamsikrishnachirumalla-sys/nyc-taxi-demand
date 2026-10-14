@@ -1,0 +1,60 @@
+{
+  "zones": 60,
+  "weather_used": true,
+  "windows": {
+    "normal": {
+      "label": "Normal weeks",
+      "start": "2025-10-27",
+      "end": "2025-11-23",
+      "train_hours": 390240,
+      "test_hours": 40320,
+      "best_model": "Avg of last 4 weeks",
+      "improvement_vs_last_week": 0.1809,
+      "models": {
+        "Same hour last week": {
+          "wape": 0.1879,
+          "mae": 15.704
+        },
+        "Avg of last 4 weeks": {
+          "wape": 0.1539,
+          "mae": 12.864
+        },
+        "Ridge regression": {
+          "wape": 0.1592,
+          "mae": 13.308
+        },
+        "Gradient boosting": {
+          "wape": 0.1613,
+          "mae": 13.481
+        }
+      }
+    },
+    "holiday": {
+      "label": "Holiday season",
+      "start": "2025-12-04",
+      "end": "2025-12-31",
+      "train_hours": 444960,
+      "test_hours": 40320,
+      "best_model": "Ridge regression",
+      "improvement_vs_last_week": 0.1121,
+      "models": {
+        "Same hour last week": {
+          "wape": 0.338,
+          "mae": 28.264
+        },
+        "Avg of last 4 weeks": {
+          "wape": 0.3073,
+          "mae": 25.692
+        },
+        "Ridge regression": {
+          "wape": 0.3001,
+          "mae": 25.089
+        },
+        "Gradient boosting": {
+          "wape": 0.3035,
+          "mae": 25.373
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+window,cluster_name,wape,trips
+normal,Airports & tourist hubs,0.16397877881846365,908055
+normal,Nightlife,0.18401625547059106,270309
+normal,Residential (morning peak),0.35325767807857184,34058
+normal,Weekday core (evening peak),0.1427464547528813,2157607
+holiday,Airports & tourist hubs,0.3046540311985106,918285
+holiday,Nightlife,0.3638345813439051,291051
+holiday,Residential (morning peak),0.3669412052918426,48145
+holiday,Weekday core (evening peak),0.2877544009269024,2113904
